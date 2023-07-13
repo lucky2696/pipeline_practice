@@ -7,9 +7,9 @@ trigger:
 - main
 
 pool:
- name:Default
- demands:
-  agent.name -equals agent01
+  name:Default
+  demands:
+   agent.name -equals agent01
 
 
 steps:
