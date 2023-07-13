@@ -8,12 +8,11 @@ trigger:
 
 pool:
   name: Default
-  demands:
-   agent.name -equals agent01
+  demands: agent.name -equals agent01
 
 
 steps:
-- script: echo Hello, world!
+- script: echo Hello, world,changed!
   displayName: 'Run a one-line script'
 
 - script: |
